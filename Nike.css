@@ -262,6 +262,30 @@
     padding: 15px 0;
     margin-top: 40px;
   }
+/* Thankyou Section */
+.thank-you-container {
+  text-align: center;
+  margin-top: 100px;
+  font-family: Arial, sans-serif;
+}
+
+.thank-you-container h1 {
+  font-size: 3em;
+  color: #111;
+}
+
+.thank-you-container p {
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+
+.thank-you-container .button {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
 
   
   
