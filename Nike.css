@@ -402,8 +402,32 @@ header {
   transition: all 0.3s ease-in-out;
 }
 
-/* Sticky state styles */
 header.sticky {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   background-color: #111; /* Slight color change */
+}
+.btn {
+  display: inline-block;
+  border: 2px solid red;
+  color: white;
+  background-color: transparent;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center;
+  transition: all 0.3s ease;
+  margin: 20px auto;
+}
+
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn:hover {
+  background-color: red;
+  color: white;
 }
