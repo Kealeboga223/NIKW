@@ -421,14 +421,13 @@ header.sticky {
   z-index: 999;
   transition: all 0.3s ease;
 }
-
-.fixed-btn-container {
+.fixed-btn:hover {
+  background-color: red;
+  color: white;
+}   
+    .fixed-btn-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.fixed-btn:hover {
-  background-color: red;
-  color: white;
-}
