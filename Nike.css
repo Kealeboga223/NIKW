@@ -328,7 +328,7 @@
     margin: 0.5rem 0;
     font-size: 1.2rem;
   }  
-/* Responsive Styles */
+
 
 /* Small devices (phones) */
 @media (max-width: 600px) {
@@ -387,7 +387,7 @@
     width: 250px;
   }
 }
-/* Sticky Header with Animation */
+
 header {
   position: sticky;
   top: 0;
@@ -404,8 +404,8 @@ header {
 
 header.sticky {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-  background-color: #111; /* Slight color change */
-}
+  background-color: #111; 
+    
 .fixed-btn {
   position: fixed;
   bottom: 30px; 
@@ -421,13 +421,10 @@ header.sticky {
   z-index: 999;
   transition: all 0.3s ease;
 }
+
+/* Optional: Hover effect */
 .fixed-btn:hover {
   background-color: red;
   color: white;
-}   
-    .fixed-btn-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
