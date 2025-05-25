@@ -420,10 +420,15 @@ header.sticky {
   margin: 20px auto;
 }
 
-
+/* Centering the button container */
 .btn-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/* Optional: Hover effect */
+.btn:hover {
+  background-color: red;
+  color: white;
+}
