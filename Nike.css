@@ -406,11 +406,8 @@ header.sticky {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   background-color: #111; 
     
-.fixed-btn {
-  position: fixed;
-  bottom: 30px; 
-  left: 50%;
-  transform: translateX(-50%);
+.btn {
+  display: inline-block;
   border: 2px solid red;
   color: white;
   background-color: transparent;
@@ -418,13 +415,15 @@ header.sticky {
   text-decoration: none;
   font-weight: bold;
   border-radius: 5px;
-  z-index: 999;
+  text-align: center;
   transition: all 0.3s ease;
+  margin: 20px auto;
 }
 
-/* Optional: Hover effect */
-.fixed-btn:hover {
-  background-color: red;
-  color: white;
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
