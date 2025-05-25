@@ -405,6 +405,7 @@ header {
 header.sticky {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   background-color: #111; 
+}
     
 .btn {
   display: inline-block;
